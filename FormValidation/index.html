@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form Validation</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="scripts.js" type="text/javascript"></script>
+	
+
+</head>
+<body>
+
+<div class="container">
+	<div class="col-md-8 col-md-offset-2 text-center header">
+		<div class="col-md-10 col-md-offset-1 header-container">
+			<h1>Sign up now!</h1>
+			<p>Sign up for the dev job of your dreams</p>
+		</div>
+	</div>
+	<form class="sign-up-form">
+		<div class="col-md-8 col-md-offset-2 form">
+			<div class="col-md-10 col-md-offset-1">
+				<div class="border-number">1</div>
+				<div class="header-name"><h2>Name & Address</h2></div>
+			</div>
+			<div class="col-md-10 col-md-offset-1 form-container">	
+				<div class="form-group">
+					<div class="error name-error"></div>
+					<label for="name-input-1">Your full name</label>
+					<input type="text" class="form-control" id="name" placeholder="Full Name">
+				</div>
+				<div class="form-group">
+					<div class="error address-error"></div>
+					<label for="name-input-1">Address</label>
+					<input type="text" class="form-control" id="address" placeholder="Your Address">
+				</div>
+			</div>
+		</div>
+
+		<div class="col-md-8 col-md-offset-2 form">
+			<div class="col-md-10 col-md-offset-1">
+				<div class="border-number">2</div>
+				<div class="header-name"><h2>Contact Info</h2></div>
+			</div>
+			<div class="col-md-10 col-md-offset-1 form-container">	
+				<div class="form-group">
+					<div class="error email-error"></div>
+					<label for="name-input-1">Email</label>
+					<input type="name" class="form-control" id="email" placeholder="Your Email">
+				</div>
+				<div class="form-group">
+					<div class="error phone-error"></div>
+					<label for="name-input-1">Phone</label>
+					<input type="name" class="form-control" id="phone" placeholder="Your Phone Number">
+				</div>
+			</div>
+		</div>
+
+		<div class="col-md-8 col-md-offset-2 form">
+			<div class="col-md-10 col-md-offset-1">
+				<div class="border-number">3</div>
+				<div class="header-name"><h2>Password</h2></div>
+			</div>	
+			<div class="col-md-10 col-md-offset-1 form-container">	
+				<div class="form-group">
+					<div class="error password1-error"></div>
+					<label for="name-input-1">Password</label>
+					<input type="password" class="form-control" id="password1" placeholder="Password must be 6 characters">
+				</div>
+				<div class="form-group">
+					<div class="error password2-error"></div>
+					<label for="name-input-1">Password Confirmation</label>
+					<input type="password" class="form-control" id="password2" placeholder="Confirm password">
+				</div>	
+			</div>
+		</div>
+
+		<div class="col-md-8 col-md-offset-2 form">
+			<div class="col-md-10 col-md-offset-1">
+				<div class="border-number">4</div>
+				<div class="header-name"><h2>Skills</h2></div>
+			</div>
+			<div class="col-md-10 col-md-offset-1 form-container">
+				<div class="form-group">
+					<div class="error tech-error"></div>
+					<label for="name-input-1">Your Tech Skills</label>
+					<input type="name" class="form-control" id="tech" placeholder="Enter your skills">
+				</div>
+				<div class="form-group">
+					<div class="error yearsxp-error"></div>
+					<label for="name-input-1">Year of Experience</label>
+					<input type="name" class="form-control" id="yearsxp" placeholder="Years of XP">
+				</div>
+			</div>
+		</div>
+
+		<div class="col-md-8 col-md-offset-2 form">
+			<div class="col-md-10 col-md-offset-1 form-container">
+				<div class="form-group">
+					<div class="error policies-error"></div>
+					<input type="checkbox" class="form-control checkbox">
+					<div class="terms">Agree to Terms and Policies</div>
+				</div>
+				<div class="form-group">
+				<input class="submit" type="submit">
+				</div>
+			</div>
+		</div>
+	</form>
+</div>
+
+</body>
+</html>
