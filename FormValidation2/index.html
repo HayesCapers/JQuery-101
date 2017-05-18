@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>SignUp Form</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="scripts.js" type="text/javascript"></script>
+
+</head>
+<body>
+
+<div class="container">
+	<form>
+		<div class="col-md-8 col-md-offset-2 form-container">
+			<div class="col-md-10 col-md-offset-1">
+				<div class="col-md-12 header">
+					<div class="number">1</div>
+					<h2>Candidate Info</h2>
+				</div>
+				<div class="error username-error"></div>
+				<input type="text" placeholder="Your Name*" class="form-control name" id="username">
+				<div class="error email-error"></div>
+				<input type="email" placeholder="Your Email*" class="form-control email" id="email">
+				<textarea name="text-area" class="form-control" placeholder="About yourself"></textarea>
+				<div class="col-md-12 select-container">
+					<h4>Interests:</h4>
+					<select class="form-control select">
+						<option>Fishing</option>
+						<option>Snowboarding</option>
+						<option>Surfing</option>
+						<option>Reading</option>
+						<option>Gaming</option>
+					</select>
+				</div>
+			</div>
+
+			<div class="col-md-10 col-md-offset-1 footer">
+				<div class="col-md-12 header">
+					<div class="number">2</div>
+					<h2>Additional Info</h2>
+				</div>
+				<textarea name="text-area" class="form-control" placeholder="About your school"></textarea>
+			</div>
+
+			<div class="col-md-12 submit-container">
+				<input type="submit" class="submit-button" value="Apply">
+			</div>
+		</div>
+	</form>
+</div>
+
+</body>
+</html>
